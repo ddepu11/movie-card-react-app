@@ -1,15 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App";
 
-ReactDOM.render(
-  <div>
-    <h1>My Name is Mohan</h1>
-    <p>This is my react project</p>
-    <ul>
-      <li>Vikki</li>
-      <li>Abhinav</li>
-      <li>Ravi</li>
-    </ul>
-  </div>,
-  document.getElementById("root")
-);
+import "./index.css";
+
+ReactDOM.render(<App />, document.getElementById("root"));
