@@ -28,7 +28,13 @@ const data = [
     src: "https://wallpapercave.com/wp/wp4025657.jpg",
     name: "Sacred Games",
     address: "https://www.netflix.com/in/title/80115328",
-    title: "Amazon Prime",
+    title: "Netflix Orignal",
+  },
+  {
+    src: "https://wallpapercave.com/wp/VSx6fFa.jpg",
+    name: "FRIENDS",
+    address: "https://tv.youtube.com/browse/friends-UCqT__8WmO_k5f1dd4GLDk8A",
+    title: "Amazon You Tube Tv",
   },
 ];
 
