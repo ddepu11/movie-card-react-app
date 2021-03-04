@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -111,4 +111,14 @@ nav {
   letter-spacing: 1px;
   text-transform: uppercase;
   border-radius: 25px;
+}
+
+@media (max-width: 600px) {
+  nav {
+    font-size: 1.4em;
+    letter-spacing: 1px;
+  }
+  .cards {
+    margin-top: -20px;
+  }
 }
