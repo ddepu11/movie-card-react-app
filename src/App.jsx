@@ -1,8 +1,10 @@
 import Card from "./Cards";
+import Navbar from "./Navbar";
 
 function App() {
   return (
     <div className="container">
+      <Navbar />
       <div className="cards">
         <Card
           src="https://wallpapercave.com/uwp/uwp374924.jpeg"
