@@ -1,13 +1,84 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  color: black;
+}
+img {
+  width: 100%;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.cards > * {
+  flex-basis: 30%;
+  min-width: 20em;
+}
+.card {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1) translateY(-12px);
+}
+.card__info {
+  padding: 0px 20px 8px 20px;
+}
+.card__category {
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.card__title {
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin: 5px 0px;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: white;
 }
