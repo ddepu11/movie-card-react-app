@@ -58,27 +58,40 @@ a {
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   transition: all 0.5s ease-in-out;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .card:hover {
   transform: scale(1.1) translateY(-12px);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-.card__info {
-  padding: 0px 20px 8px 20px;
+
+.movie-info {
+  padding: 0px 15px 8px 15px;
 }
-.card__category {
+.heading {
   letter-spacing: 1px;
   font-weight: bold;
   font-size: 1.5em;
+  color: #333;
 }
 
-.card__title {
+.movie-name {
   letter-spacing: 1px;
   font-weight: bold;
   font-size: 1.3em;
   margin: 5px 0px;
+  color: #111;
 }
 .btn {
   padding: 10px 20px;
   background-color: white;
+  color: black;
+  margin: 5px 0 5px 0;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
