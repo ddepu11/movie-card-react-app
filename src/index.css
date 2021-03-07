@@ -121,4 +121,7 @@ nav {
   .cards {
     margin-top: -20px;
   }
+  nav h1 {
+    font-size: 1.1em;
+  }
 }

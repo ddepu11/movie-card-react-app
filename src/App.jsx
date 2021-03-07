@@ -7,8 +7,9 @@ function App() {
     <div className="container">
       <Navbar />
       <div className="cards">
-        {movies.map((movie) => (
+        {movies.map((movie, index) => (
           <Card
+            key={index}
             src={movie.src}
             name={movie.name}
             address={movie.address}
